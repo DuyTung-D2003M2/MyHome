@@ -1,0 +1,286 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+html {
+  overflow-x: hidden;
+}
+.Banner1{
+    
+height: 100vh;
+background-image: url(" ../images/bg.png");
+background-size: cover;
+background-position: center;
+}
+.Navbar-Panel {
+  width: 2200px;
+  height: 70px;
+  margin: 0 0 110px;
+  padding: 21px 0 0;
+}
+.Logo01 {
+  width: 173px;
+  height: 71px;
+  margin: 51px 0px 287px 212px;
+}
+.menu
+{
+	width: 600px;
+    height: 30px;
+	float: right;
+	margin: -320px 810px 50px 250px;
+	background-size: 100%;
+
+}
+.main_menu
+{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	font-size: 13pt;
+	
+}
+ul li a
+{
+	margin-left: 50px;
+	text-decoration: none;
+	float: left;
+	color:black;
+}
+.Banner2{
+    
+height: 100vh;
+background-size: cover;
+background-color: #FFFFFF;
+background-position: center;
+}
+.images01{
+    margin: 160px 144px 0px 144px;
+}
+.menu02
+{
+	width: 600px;
+    height: 30px;
+	float: right;
+	margin: 50px 510px 0px 0px ;
+	background-size: 100%;
+    color:#F4671E;
+
+}
+.main_menu02
+{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	font-size: 20pt;
+	color:#F4671E;
+}
+ul li a02
+{
+	margin-left: 20px;
+	float: left;
+	color:#F4671E;
+}
+
+#btn-tb02{
+    width: 150px;
+    height: 40px;
+    color:#FFFFFF;
+    background-color:#ff7b38;
+    border-radius: 20px;
+    margin: 150px 0px 0px 910px;
+    font-size: 12pt;
+}
+.Text-incon {
+  width: 345px;
+  height: 360px;
+  margin: -525px 0px 500px 750px;
+  box-shadow: 24.7px 24.7px 47.5px 2.5px rgba(228, 226, 226, 0.75);
+  background-color: #ffffff;
+}
+.Text-incon01 {
+  width: 354px;
+  height: 375px;
+  margin: 20px 0px 152px 300px;
+  background-color: #ffffff;
+}
+.Text-incon02 {
+  width: 354px;
+  height: 375px;
+  margin: -860px 0px 152px 1200px;
+  background-color: #ffffff;
+}
+.Banner3{
+width: 2000px;  
+height: 361px;
+background-size: cover;
+background-color: #FFFFFF;
+background-position: center;
+background-image: url("../images/Untitled-1.png");
+color: #FFFFFFF;
+}
+input{
+    width: 500px;
+    height: 10px;
+    border-radius: 50px;
+    border: 2px #7C7C7C solid;
+    box-shadow:  1px 1px 5px #888888;
+}
+#btn-tb03 {
+    width: 200px;
+    height: 50px;
+    color:#FFFFFF;
+    background-color:#ff7b38;
+    border-radius: 50px;
+    margin: 70px 0px 0px 0px;
+    box-shadow:  1px 1px 5px #888888;
+    font-size: 12pt;
+}
+.Banner4{
+width: 2000px;  
+height: 690px;
+background-size: cover;
+background-color: #FFFFFF;
+background-position: center;
+background-image: url("../images/23.png");
+color: #FFFFFFF;
+}
+.Banner5{
+width: 2000px;  
+height:900px;
+background-size: cover;
+background-color: #FFFFFF;
+background-position: center;
+color: #FFFFFFF;
+}
+#btn-tb04 {
+    width: 150px;
+    height: 50px;
+    color:#FFFFFF;
+    background-color:#ff7b38;
+    border-radius: 50px;
+    margin: 70px 0px 0px 0px;
+    box-shadow:  1px 1px 5px #888888;
+    font-size: 12pt;
+}
+.img01{
+    
+margin: 150px 250px 0px 350px;    
+}
+.img02{
+    
+margin: -708px 0px 500px 750px;    
+}
+.img03{
+    
+margin: -1202px 0px 500px 1200px;    
+}
+#inputAddress{
+    opacity: 0.5;
+    width: 600px;
+    height: 50px;
+    margin: 20px 0;
+    border: none;
+    border-bottom: 1px solid rgb(100, 100, 100);
+    background-color: transparent;
+    border-radius: 0%;
+    font-size: 12px;
+    transition: 0.3s;
+}
+#inputAddress:hover{
+    box-shadow: 0 1px 3px rgb(145, 145, 145);
+    transform: translateY(-3px);
+}
+#textfill:hover{
+    outline: auto;
+    box-shadow: 0 1px 3px rgb(145, 145, 145);
+
+}
+.Banner6{
+width: 800px;  
+height:700px;
+background-size: cover;
+background-color: #f48146;
+background-position: center;
+color: #FFFFFFF;
+margin: -300px 93px 500px 10px;
+padding: 140px 120px 0px 200px ;
+}
+.Shape {
+  width: 500px;
+  height: 400px;
+  padding: 50px 62px 78px 45px;
+  background-color: #ffffff;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background:  #f8f8f8;;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 50px;
+  text-align: center;
+ margin: 50px 0px 0px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:focus, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background:#f8f8f8;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+
