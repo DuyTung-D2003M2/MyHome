@@ -59,7 +59,7 @@ background-position: center;
 }
 .images01{
     margin: 160px 144px 0px 144px;
-    animation: fadeInLeft 5s linear 2s infinite alternate;
+    animation: fadeInLeft 3s linear 1s infinite alternate;
 }
 .menu02
 {
@@ -101,21 +101,21 @@ ul li a02
   margin: -525px 0px 500px 750px;
   box-shadow: 24.7px 24.7px 47.5px 2.5px rgba(228, 226, 226, 0.75);
   background-color: #ffffff;
-  animation: bounceInUp 3s linear 2s alternate;
+  animation: bounceInUp 5s linear 2s alternate;
 }
 .Text-incon01 {
   width: 354px;
   height: 375px;
   margin: 20px 0px 152px 300px;
   background-color: #ffffff;
- animation: bounceInLeft 8s linear 2s infinite alternate;
+ animation: bounceInLeft 7s linear 2s infinite alternate;
 }
 .Text-incon02 {
   width: 354px;
   height: 375px;
   margin: -860px 0px 152px 1200px;
   background-color: #ffffff;
- animation: bounceInRight 8s linear 2s infinite  alternate;
+ animation: bounceInRight 7s linear 2s infinite  alternate;
 }
 .Banner3{
 width: 2000px;  
@@ -125,7 +125,7 @@ background-color: #FFFFFF;
 background-position: center;
 background-image: url("../images/Untitled-1.png");
 color: #FFFFFFF;
-
+animation: bounceInUp 15s linear 2s alternate;
 }
 .an01{
     animation: fadeInLeft 2s linear 5s infinite alternate;
@@ -155,6 +155,7 @@ background-color: #FFFFFF;
 background-position: center;
 background-image: url("../images/23.png");
 color: #FFFFFFF;
+
 }
 .Banner5{
 width: 2000px;  
@@ -175,15 +176,15 @@ color: #FFFFFFF;
     font-size: 12pt;
 }
 .img01{
-   animation: fadeInUp 2s linear 5s  alternate; 
+   animation: fadeInUp 2s linear 1s  alternate; 
 margin: 150px 250px 0px 350px;    
 }
 .img02{
-    animation: fadeInLeft 2s linear 5s infinite alternate;
+    animation: fadeInLeft 2s linear 1s infinite alternate;
 margin: -708px 0px 500px 750px;    
 }
 .img03{
-    animation: fadeInRight 2s linear 5s infinite alternate;
+    animation: fadeInRight 2s linear 1s infinite alternate;
 margin: -1202px 0px 500px 1200px;    
 }
 #inputAddress{
@@ -216,10 +217,10 @@ background-position: center;
 color: #FFFFFFF;
 margin: -300px 93px 500px 10px;
 padding: 140px 120px 0px 200px ;
-animation: bounceInRight 18s linear 3s alternate;
+animation: bounceInRight 25s linear 2s alternate ;
 }
 .an02{
-animation: bounceInUp 25s linear 3s alternate;   
+animation: bounceInUp 23s linear 2s alternate ;   
     
 }
 .Shape {
